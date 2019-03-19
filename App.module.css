@@ -1,0 +1,97 @@
+.app {
+  text-align: center;
+  color: darkblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.addPanel {
+  border: 2px double black;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  width: 500px;
+  transform: translateX(75%);
+  background-color: blanchedalmond;
+  opacity: 0.8;
+}
+
+.innerAddPanel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: aliceblue;
+  outline: none;
+  height: 30px;
+}
+
+.doneBtn,
+.deleteBtn,
+.updateBtn,
+.notDone {
+  display: flex;
+  height: 30px;
+  align-self: center;
+  margin: 5px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: aliceblue;
+  outline: none
+}
+
+.btn:hover,
+.doneBtn:hover,
+.deleteBtn:hover,
+.updateBtn:hover,
+.notDone:hover {
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: rgb(76, 76, 155);
+}
+
+.todoWrapper {
+  border: 2px solid black;
+  width: 900px;
+  height: 300px;
+  overflow: scroll;
+  transform: translateX(15%);
+  padding: 20px;
+  background-color: blanchedalmond;
+  opacity: 0.8;
+}
+
+.todoItem {
+  display: flex;
+  justify-Content: space-around;
+}
+
+.todoText {
+  width: 600px;
+}
+
+.deleteWrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.completed {
+  background-color: rgb(174, 199, 133);
+  opacity: 0.8;
+  width: 600px;
+}
+
+.notCompleted {
+  background-color: blanchedalmond;
+  opacity: 0.8;
+}
+
+.editTodoText {
+  outline-style: 2px black groove;
+  background-color: aliceblue;
+}
